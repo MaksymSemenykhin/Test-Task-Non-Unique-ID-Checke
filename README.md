@@ -53,3 +53,9 @@ HAVING COUNT(id) > 1;
 **Note:** Ensure you replace `your_table_name` with the actual name of your table.
 
 Once executed, this query will return the `id` values that appear more than once in the table, along with their respective occurrence counts.
+
+```sql
+id,COUNT(id)
+1,4
+2,2
+```
