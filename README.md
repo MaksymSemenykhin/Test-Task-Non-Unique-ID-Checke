@@ -26,7 +26,21 @@ CREATE TABLE your_table_name (
 ```
 **Note:** Make sure to replace `your_table_name` with the desired table name.
 
+
 ## 🛠 SQL Query to Find Non-Unique IDs
+
+Below is the SQL query to add some values:
+
+```sql
+INSERT INTO `defaultdb`.`your_table_name` (`id`,`name`)VALUES(1,1);
+INSERT INTO `defaultdb`.`your_table_name` (`id`,`name`)VALUES(1,1);
+INSERT INTO `defaultdb`.`your_table_name` (`id`,`name`)VALUES(1,1);
+INSERT INTO `defaultdb`.`your_table_name` (`id`,`name`)VALUES(1,1);
+
+INSERT INTO `defaultdb`.`your_table_name` (`id`,`name`)VALUES(2,2);
+INSERT INTO `defaultdb`.`your_table_name` (`id`,`name`)VALUES(2,2);
+```
+
 
 Below is the SQL query crafted to detect non-unique `id` values:
 
